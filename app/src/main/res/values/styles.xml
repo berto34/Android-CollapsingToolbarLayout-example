@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="CollapsingToolbarStyle" parent="Widget.Design.CollapsingToolbar">
+        <item name="expandedTitleMarginStart">30dp</item>
+        <item name="expandedTitleMarginBottom">200dp</item>
+        <item name="collapsedTitleTextAppearance">@style/TextAppearance.MyApp.CollapsingToolbar.Collapsed</item>
+        <item name="maxLines">2</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.CollapsingToolbar.Collapsed" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.CollapsingToolbar.Expanded.Title" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="TextAppearance.MyApp.CollapsingToolbar.Expanded.Subtitle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="OutlinedButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minHeight">0dp</item>
+    </style>
+
+</resources>
